@@ -1,0 +1,53 @@
+.safari-banner {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  background-color: #fae3ce;
+  padding: 30px 0px;
+  font-family: "Advent Pro", sans-serif;
+}
+
+.safari-text {
+  display: flex;
+  width: 95%;
+  justify-content: space-between;
+}
+
+.safari-heading {
+  color: #b25f04;
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin: 0;
+  width: 240px;
+}
+
+.safari-description {
+  color: #b25f04;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.6;
+  margin-top: 15px;
+  width: 347px;
+  text-align: left;
+  line-height: 30px;
+
+}
+
+.safari-destinations {
+  text-align: right; 
+  width: 80px;
+}
+
+.destinations-number {
+  color:#b25f04;
+  font-size: 3.5rem; 
+  font-weight: bold; 
+  margin: 0;
+}
+
+.destinations-label {
+  color: #935e2b; /* Brownish color for the destinations label */
+  font-size: 1.2rem; /* Smaller font size for the label */
+  margin-top: 5px; /* Slight margin to separate number and label */
+}
