@@ -1,6 +1,6 @@
 .hero-container {
-  background-image: url("../../assets/images/img1.jpg"); /* Replace with the correct image path */
-  height: 77vh;
+  background-image: url("../../assets/images/img2.jpg"); /* Replace with the correct image path */
+  height: 73vh;
   background-size: cover;
   background-position: center top; /* Adjusting the background position to pull it up */
   display: flex;
@@ -9,7 +9,7 @@
   justify-content: center;
   overflow: hidden; 
 }
-.hero-container::after {
+/* .hero-container::after {
     content: '';
     position: absolute;
     bottom: -73px;
@@ -17,8 +17,8 @@
     right: 0;
     height: 15%;
     background: linear-gradient(to bottom, rgba(178, 95, 4, 0) 0%, rgba(255, 226, 197, 0.8) 50%, rgba(255, 255, 255, 1) 100%);
-    filter: blur(10px); /* Creates the blur effect */
-}
+    filter: blur(10px); Creates the blur effect
+} */
 
 .overlay {
   text-align: center;
