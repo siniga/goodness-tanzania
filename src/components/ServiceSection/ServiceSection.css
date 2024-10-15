@@ -1,0 +1,17 @@
+.services-container {
+    position: relative;
+    top: -6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    background-color: #fae3ce; /* Adjust the background color */
+    background-image: url("../../assets/images/im2.jpg");
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center top; /* Adjusting the background position to pull it up */
+    display: flex;
+    /* align-items: center; */
+    background-position: center calc(620px);
+  }
+  

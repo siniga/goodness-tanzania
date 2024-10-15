@@ -1,18 +1,16 @@
 import React from "react";
-import ServiceCard from "../../components/ServiceCard/ServiceCard";
-import "./ServicePage.css";
+import "./ServiceSection.css";
 import { FaMapMarkerAlt, FaPlane, FaHotel } from "react-icons/fa"; // Assuming you are using Font Awesome for icons
-import SafariTripsBanner from "../../components/TripBanner/SafariTripsBanner";
-import ClickToPlay from "../../components/PlayLayout/ClickToPLay";
+import ServiceCard from "../ServiceCard/ServiceCard";
+import SafariTripsBanner from "../TripBanner/SafariTripsBanner";
+import ClickToPlay from "../PlayLayout/ClickToPLay";
 
 const ServicePage = () => {
   return (
     <div className="services-container">
       <SafariTripsBanner />
-    
-        <ServiceCard />
-        <ClickToPlay />
-  
+      <ServiceCard />
+      <ClickToPlay />
     </div>
   );
 };

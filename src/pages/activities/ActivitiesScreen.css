@@ -1,0 +1,124 @@
+.balloon-safari-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.text-container {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.text-container h2 {
+  font-size: 1.9em;
+  color: #b25f04; 
+  text-align: left;
+}
+
+.text-container p {
+  color: #b25f04; 
+  line-height: 1.6;
+  width: 300px;
+  font-size: 1.4em;
+  text-align: left;
+}
+
+.image-container {
+  flex: 1;
+}
+
+.activit-image-container img {
+  width: 70%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.activity-banner {
+    margin: 0 auto 50px auto;
+    width: 80%;
+    /* background-image: url('https://link-to-your-background-image');  */
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    color: white;
+    position: relative;
+    background-image: url("../../assets//images/tree.jpg");
+  }
+  
+  .text-content {
+    max-width: 60%;
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  
+  .activities-count {
+    text-align: right;
+  }
+  
+  .activities-count h2 {
+    font-size: 4rem;
+    margin: 0;
+  }
+  
+  .activities-count p {
+    font-size: 1.2rem;
+  }
+  
+  .activity-banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 130, 0, 0.8);
+    z-index: 1;
+    object-fit: contain;
+  }
+  
+  .text-content, .activities-count {
+    z-index: 2; /* Make sure content is above the overlay */
+  }
+   
+  .hobby-container{
+    margin: 0 auto;
+    width: 70%;
+  }
+  .hobby-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #B25F04; /* Replace with the color of your choice */
+    color: white;
+    width: 250px;
+    height: 60px;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .hobby-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+  }
+  
+  .hobby-label {
+    font-size: 18px;
+  }
+  
+  .hobby-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns layout */
+    gap: 20px;
+    padding: 20px;
+    justify-items: center; /* Centers the cards horizontally */
+  }
+  

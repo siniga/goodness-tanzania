@@ -30,6 +30,7 @@
   font-size: 22px;
   font-family: 'Advent Pro', sans-serif;
   position: relative;
+  font-weight: 500;
 }
 
 .nav-item.active .nav-link::after {
