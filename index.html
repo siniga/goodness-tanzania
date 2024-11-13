@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Goodness Tours - Luxury Tanzania Safaris</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Playfair+Display:wght@400;700&family=Cinzel:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="#hero" class="logo">Goodness Tours</a>
+      <div class="nav-links">
+        <a href="#hero">Home</a>
+        <a href="#our-story">Our Story</a>
+        <a href="#activities">Activities</a>
+        <a href="#destiations">Destinations</a>
+        <a href="#trips">Plan A Trip</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="language-selector">EN</div>
+    </nav>
+
+    <div class="sections-wrapper">
+      <section id="hero" class="hero">
+        <h1>More than a safari</h1>
+        <p>A Journey of Discovery</p>
+        <div class="location">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>Unforgettable Safari Experiences | Tanzania</span>
+        </div>
+        <div class="scroll-indicator">
+          <i class="fas fa-chevron-down"></i>
+        </div>
+      </section>
+
+      <section id="our-story" class="about-us-section">
+        <div class="about-content">
+          <!-- Slideshow Container -->
+          <div class="about-slideshow">
+            <div
+              class="slide"
+              style="background-image: url('./assets/img5.jpg')"
+            ></div>
+            <div
+              class="slide"
+              style="background-image: url('./assets/img13.jpg')"
+            ></div>
+            <div
+              class="slide"
+              style="background-image: url('./assets/img3.jpg')"
+            ></div>
+            <!-- Add more slides as needed -->
+
+            <!-- Slideshow Indicators -->
+            <div class="slide-indicators">
+              <span
+                class="slide-indicator active"
+                onclick="currentSlide(0)"
+              ></span>
+              <span class="slide-indicator" onclick="currentSlide(1)"></span>
+              <span class="slide-indicator" onclick="currentSlide(2)"></span>
+              <!-- Add indicators for each slide -->
+            </div>
+          </div>
+
+          <div class="about-text">
+            <h2>About Goodness Tours & Safari</h2>
+            <p class="section-intro">
+              At Goodness Tours & Safari, we are dedicated to bringing the
+              beauty and wonder of Tanzania to life through meaningful journeys
+              that connect people to nature and each other.
+            </p>
+            <p class="section-description">
+              Our mission is rooted in a deep love for Tanzania’s landscapes and
+              cultures. We seek to provide authentic experiences of travel,
+              exploration, and adventure, guiding you through Tanzania’s
+              awe-inspiring natural settings.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="activities" class="safari-container">
+        <div class="header">
+          <h2>Unforgettable Safari Experiences</h2>
+          <p>
+            Embark on an adventure of a lifetime with our carefully curated
+            selection of safari activities. From thrilling game drives to serene
+            hot air balloon rides, discover the magic of Tanzania.
+          </p>
+        </div>
+
+        <div class="activities-grid">
+          <div class="activity-card">
+            <div class="activity-image">
+              <img
+                src="./assets/activities/img8.jpeg"
+                alt="Game Drive Safari"
+              />
+              <div class="activity-icon">
+                <i class="fas fa-binoculars"></i>
+              </div>
+            </div>
+            <div class="activity-content">
+              <h3>Game Drives</h3>
+              <p>
+                Experience the thrill of tracking the Big Five and witnessing
+                the great migration across the Serengeti plains in our
+                custom-designed safari vehicles.
+              </p>
+              <a href="#" class="learn-more">Explore More</a>
+            </div>
+          </div>
+
+          <div class="activity-card">
+            <div class="activity-image">
+              <img src="./assets/activities/img14.jpeg" alt="Walking Safari" />
+              <div class="activity-icon">
+                <i class="fas fa-hiking"></i>
+              </div>
+            </div>
+            <div class="activity-content">
+              <h3>Walking Safaris</h3>
+              <p>
+                Get closer to nature with our guided walking safaris. Learn
+                about animal tracking, local flora, and experience the African
+                bush from ground level.
+              </p>
+              <a href="#" class="learn-more">Explore More</a>
+            </div>
+          </div>
+
+          <div class="activity-card">
+            <div class="activity-image">
+              <img
+                src="./assets/activities/img2.jpeg"
+                alt="Hot Air Balloon Safari"
+              />
+              <div class="activity-icon">
+                <i class="fas fa-hot-tub"></i>
+              </div>
+            </div>
+            <div class="activity-content">
+              <h3>Hot Air Balloon Safaris</h3>
+              <p>
+                Float above the savannah at dawn and witness the awakening of
+                the African plains. Complete your experience with a champagne
+                breakfast.
+              </p>
+              <a href="#" class="learn-more">Explore More</a>
+            </div>
+          </div>
+
+          <!-- <div class="activity-card">
+            <div class="activity-image">
+              <img src="./assets/activities/img5.jpeg" alt="Cultural Tours">
+              <div class="activity-icon">
+                <i class="fas fa-users"></i>
+              </div>
+            </div>
+            <div class="activity-content">
+              <h3>Cultural Tours</h3>
+              <p>Immerse yourself in the rich Maasai culture. Visit traditional villages, learn about local customs, and participate in authentic ceremonies.</p>
+              <a href="#" class="learn-more">Explore More</a>
+            </div>
+          </div>
+      
+          <div class="activity-card">
+            <div class="activity-image">
+              <img src="./assets/activities/img10.jpeg" alt="Photography Safari">
+              <div class="activity-icon">
+                <i class="fas fa-camera"></i>
+              </div>
+            </div>
+            <div class="activity-content">
+              <h3>Photography Safaris</h3>
+              <p>Capture stunning wildlife moments with our specialized photography tours. Perfect for both amateur and professional photographers.</p>
+              <a href="#" class="learn-more">Explore More</a>
+            </div>
+          </div>
+      
+          <div class="activity-card">
+            <div class="activity-image">
+              <img src="./assets/activities/img10.jpeg" alt="Bird Watching">
+              <div class="activity-icon">
+                <i class="fas fa-dove"></i>
+              </div>
+            </div>
+            <div class="activity-content">
+              <h3>Bird Watching</h3>
+              <p>Discover Tanzania's rich avian life with over 1,000 bird species. Our expert guides will help you spot and identify these magnificent creatures.</p>
+              <a href="#" class="learn-more">Explore More</a>
+            </div>
+          </div> -->
+        </div>
+        <a href="#" class="see-all-link">SEE ALL ACTIVITIES →</a>
+      </section>
+
+      <!--  -->
+      <section id="destiations" class="destinations-section">
+        <h2>YOU MIGHT BE INTERESTED IN:</h2>
+        <div class="destinations-grid">
+          <div class="destination-card">
+            <img src="./assets/destinations/ngorongoro.jpg" alt="Ngorongoro" />
+            <h3>Ngorongoro</h3>
+          </div>
+          <div class="destination-card">
+            <img src="./assets/destinations/manyara.jpg" alt="Manyara" />
+            <h3>Manyara</h3>
+          </div>
+          <div class="destination-card">
+            <img src="./assets/destinations/zanzibar.jpg" alt="Zanzibar" />
+            <h3>Zanzibar</h3>
+          </div>
+          <div class="destination-card">
+            <img
+              src="./assets/destinations/kilimanjaro.jpg"
+              alt="Mount Kilimanjaro"
+            />
+            <h3>Mount Kilimanjaro</h3>
+          </div>
+        </div>
+        <a href="#" class="see-all-link">SEE ALL DESTINATIONS →</a>
+      </section>
+
+      <!--  -->
+      <section id="trips" class="trips-section">
+        <div class="trip-container">
+          <h1>Explore our trip packages for different destinations</h1>
+
+          <!-- First Row -->
+          <div class="trip-row">
+            <div class="trip-card">
+              <img
+                src="./assets/trips/t1.jpg"
+                alt="Antique Europe"
+                class="trip-image"
+              />
+              <div class="trip-info">
+                <div class="trip-name">
+                  <svg
+                    class="location-icon"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                    <circle cx="12" cy="10" r="3" />
+                  </svg>
+                  <div class="trip-details">2/1 Night DAYS SAFARI</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="trip-card">
+              <img
+                src="./assets/trips/marangu.jpg"
+                alt="Adventure Alaska"
+                class="trip-image"
+              />
+              <div class="trip-info">
+                <div class="trip-name">
+                  <svg
+                    class="location-icon"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                    <circle cx="12" cy="10" r="3" />
+                  </svg>
+                  <div class="trip-details">5 DAYS MARANGU ROUTE</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="trip-card">
+              <img
+                src="./assets//trips/rongai.jpg"
+                alt="Awesome Mexico"
+                class="trip-image"
+              />
+              <div class="trip-info">
+                <div class="trip-name">
+                  <svg
+                    class="location-icon"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                    <circle cx="12" cy="10" r="3" />
+                  </svg>
+                  <div class="trip-details">6 DAYS MARANGU ROUTE</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Second Row -->
+          <div class="trip-row">
+            <div class="trip-card">
+              <img
+                src="./assets//trips/machame-route.jpg"
+                alt="Awesome Mexico"
+                class="trip-image"
+              />
+              <div class="trip-info">
+                <div class="trip-name">
+                  <svg
+                    class="location-icon"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                    <circle cx="12" cy="10" r="3" />
+                  </svg>
+                  <div class="trip-details">6/5 nights DAYS MACHAME ROUTE</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="trip-card">
+              <img
+                src="./assets//trips/rongai-1.webp"
+                alt="Awesome Mexico"
+                class="trip-image"
+              />
+              <div class="trip-info">
+                <div class="trip-name">
+                  <svg
+                    class="location-icon"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                    <circle cx="12" cy="10" r="3" />
+                  </svg>
+                  <div class="trip-details">RONGAI ROUTE 6/5 nights</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="trip-card">
+              <img
+                src="./assets//trips/umbwe.jpg"
+                alt="Awesome Mexico"
+                class="trip-image"
+              />
+              <div class="trip-info">
+                <div class="trip-name">
+                  <svg
+                    class="location-icon"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                    <circle cx="12" cy="10" r="3" />
+                  </svg>
+                  <div class="trip-details">6/5 NIGHTS DAYS UMBWE ROUTE</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="testimonials" class="testimonial-container">
+        <h1 class="page-title">Our Customer Stories</h1>
+
+        <div class="slider-wrapper">
+          <div class="testimonial-slider">
+            <div class="testimonial-slide active">
+              <div class="testimonial-content">
+                <p class="quote-text">
+                  Since 2014, we've helped more than 500,000 people of all ages
+                  enjoy the best outdoor experience of their lives. Whether it's
+                  for one day or a two-week vacation.
+                </p>
+                <div class="slide-number">01/03</div>
+              </div>
+              <div class="image-container">
+                <img
+                  class="testimonial-image"
+                  src="./assets/testimonials/t1.jpg"
+                  alt="Customer 1"
+                />
+              </div>
+            </div>
+
+            <div class="testimonial-slide">
+              <div class="testimonial-content">
+                <p class="quote-text">
+                  The guides were exceptional and made our adventure truly
+                  unforgettable. Every detail was perfectly planned, and the
+                  scenery was breathtaking.
+                </p>
+                <div class="slide-number">02/03</div>
+              </div>
+              <div class="image-container">
+                <img
+                  class="testimonial-image"
+                  src="./assets/testimonials/t2.jpg"
+                  alt="Customer 2"
+                />
+              </div>
+            </div>
+
+            <div class="testimonial-slide">
+              <div class="testimonial-content">
+                <p class="quote-text">
+                  As first-time hikers, we felt safe and supported throughout
+                  the entire journey. The equipment provided was top-notch, and
+                  the experience exceeded our expectations.
+                </p>
+                <div class="slide-number">03/03</div>
+              </div>
+              <div class="image-container">
+                <img
+                  class="testimonial-image"
+                  src="./assets/testimonials/t3.jpg"
+                  alt="Customer 3"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="nav-arrows">
+            <div class="arrow prev">←</div>
+            <div class="arrow next">→</div>
+          </div>
+        </div>
+
+        <div class="nav-dots"></div>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <div class="cursor"></div>
+        <div class="gradient-bg"></div>
+        <div class="floating-shapes"></div>
+
+       
+
+        <div class="container">
+          <h1 class="header">
+            <span>Got a creative project?</span>
+            <span>Let's bring it to life.</span>
+          </h1>
+
+          <form class="form-container" id="contact-form">
+            <div class="form-group">
+              <input type="text" id="name" required />
+              <label for="name">Your Name</label>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" required />
+              <label for="email">Your Email</label>
+            </div>
+            <div class="form-group">
+              <input type="text" id="subject" required />
+              <label for="subject">Project Type</label>
+            </div>
+            <div class="form-group">
+              <input type="text" id="budget" required />
+              <label for="budget">Budget Range</label>
+            </div>
+            <div class="form-group" style="grid-column: span 2">
+              <textarea id="message" required></textarea>
+              <label for="message">Tell us about your project</label>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+          </form>
+
+          <div class="contact-info">
+            <div class="info-item">
+              <p>1600 Amphitheatre Parkway</p>
+              <p>Mountain View, CA 94043</p>
+            </div>
+            <div class="info-item">
+              <p>contact@glintsite.com</p>
+              <p>info@glintsite.com</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="./js/slideshow.js"></script>
+    <!--  -->
+    <script>
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          target.scrollIntoView({
+            behavior: "smooth",
+          });
+        });
+      });
+    </script>
+    <!--  -->
+    <script>
+      // Smooth scroll script with easing function (from previous example)
+      function easeInOutQuad(t) {
+        return t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t;
+      }
+
+      function smoothScroll(target, duration) {
+        const start = window.pageYOffset;
+        const end = target.getBoundingClientRect().top + window.pageYOffset;
+        const distance = end - start;
+        let startTime = null;
+
+        function animation(currentTime) {
+          if (!startTime) startTime = currentTime;
+          const timeElapsed = currentTime - startTime;
+          const progress = Math.min(timeElapsed / duration, 1);
+          const easing = easeInOutQuad(progress);
+          window.scrollTo(0, start + distance * easing);
+          if (timeElapsed < duration) requestAnimationFrame(animation);
+        }
+
+        requestAnimationFrame(animation);
+      }
+
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const targetId = this.getAttribute("href");
+          const target = document.querySelector(targetId);
+          if (target) smoothScroll(target, 1000);
+        });
+      });
+
+      // Section-specific background colors
+      const sectionColors = {
+        activities: "#2d3436",
+        destiations: "#2d2437",
+        plan: "#b3b3b3",
+        testimonials: "#2d2437",
+        trips: "#2d2437",
+        contact: "#2d2437"
+      };
+
+      const nav = document.querySelector("nav");
+
+      // Intersection Observer to change nav color
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              const sectionId = entry.target.id;
+              if (sectionId === "hero") {
+                nav.style.backgroundColor = "transparent";
+              } else {
+                const color = sectionColors[sectionId];
+                if (color) {
+                  nav.style.backgroundColor = color;
+                }
+              }
+            }
+          });
+        },
+        {
+          threshold: 0.5, // Adjusts when the color changes based on how much of the section is in view
+        }
+      );
+
+      // Observe each section
+      document.querySelectorAll("section").forEach((section) => {
+        observer.observe(section);
+      });
+    </script>
+    <!--  -->
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const slider = document.querySelector(".testimonial-slider");
+        const slides = document.querySelectorAll(".testimonial-slide");
+        const dotsContainer = document.querySelector(".nav-dots");
+        const prevBtn = document.querySelector(".prev");
+        const nextBtn = document.querySelector(".next");
+
+        let currentSlide = 0;
+
+        // Create dots
+        slides.forEach((_, index) => {
+          const dot = document.createElement("div");
+          dot.classList.add("nav-dot");
+          if (index === 0) dot.classList.add("active");
+          dot.addEventListener("click", () => goToSlide(index));
+          dotsContainer.appendChild(dot);
+        });
+
+        function updateSlider() {
+          slider.style.transform = `translateX(-${currentSlide * 100}%)`;
+
+          // Update active states
+          slides.forEach((slide, index) => {
+            slide.classList.toggle("active", index === currentSlide);
+          });
+
+          document.querySelectorAll(".nav-dot").forEach((dot, index) => {
+            dot.classList.toggle("active", index === currentSlide);
+          });
+        }
+
+        function goToSlide(index) {
+          currentSlide = index;
+          updateSlider();
+        }
+
+        function nextSlide() {
+          currentSlide = (currentSlide + 1) % slides.length;
+          updateSlider();
+        }
+
+        function prevSlide() {
+          currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+          updateSlider();
+        }
+
+        // Event listeners
+        prevBtn.addEventListener("click", prevSlide);
+        nextBtn.addEventListener("click", nextSlide);
+
+        // Auto advance slides
+        setInterval(nextSlide, 5000);
+
+        // Touch support
+        let touchStartX = 0;
+        let touchEndX = 0;
+
+        slider.addEventListener("touchstart", (e) => {
+          touchStartX = e.changedTouches[0].screenX;
+        });
+
+        slider.addEventListener("touchend", (e) => {
+          touchEndX = e.changedTouches[0].screenX;
+          handleSwipe();
+        });
+
+        function handleSwipe() {
+          const swipeThreshold = 50;
+          const diff = touchStartX - touchEndX;
+
+          if (Math.abs(diff) > swipeThreshold) {
+            if (diff > 0) {
+              nextSlide();
+            } else {
+              prevSlide();
+            }
+          }
+        }
+      });
+    </script>
+  </body>
+</html>
